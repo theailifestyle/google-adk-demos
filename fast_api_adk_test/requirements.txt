@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+google-generativeai
+google-adk
+streamlit
+requests
+sseclient-py
+sqlalchemy
+# LiteLLM is used by ADK for model flexibility, ensure it's available
+litellm
+python-dotenv # For managing API keys if needed via .env
